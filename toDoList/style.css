@@ -1,0 +1,195 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    background : linear-gradient(135deg,#80ced6,#4e085f)
+   
+}
+
+.card-title {
+    max-width: 650px;
+    width: 400px 20px ;
+    color:black; 
+    padding: 5px 125px 10px 35px ;
+    margin: 5px 230px 5px ;
+    background-color: white ;
+    border-radius: 10px;
+    
+    
+}
+h1{
+
+    display: flex;
+    align-items: center;
+    
+   
+}
+
+
+.card-title  img{
+    height: 150px;
+    width:150px;
+    margin-left: 200px;
+    margin-top: 5px;  
+    
+    
+    
+}
+
+/* .row{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    height: 30px;
+    width: 500px;
+    margin:15px 1px;
+    padding: 5px auto ; 
+    border-radius: 50px;
+   
+    
+
+}  */
+
+.text{
+    height: 30px;
+    width: 500px;
+    margin:15px 1px;
+    padding: 5px auto ;
+    background-color: #edeef0 ;
+    border-radius: 60px;
+    /* border: none;
+    outline: none; */
+   
+}
+
+ .btn{
+    height:40px;
+    width:90px;
+    margin:20px 15px;
+    border-radius: 50%;
+    font-size:14px;
+    background-color: #588c7e;
+    color: white;
+    border:none;
+    cursor: pointer;
+    
+}    
+
+.allDeleteBtn{
+    height:9cap;
+    width: 50px;
+    margin:5px 15px 10px;
+    padding: 20px;
+    border-radius: 50%;
+    font-size:14px;
+    background-color: #588c7e;
+    color: white;
+    border:none;
+    cursor: pointer;
+    align-items: center;
+
+}
+.allDeleteBtn:hover{
+    background-color: #bbb;
+}
+
+
+ .btn:hover {
+    background-color: #bbb;
+} 
+
+
+
+
+.card-title3{
+    font-size:24px;
+    margin: 5px 5px auto;
+}
+
+.card-title2{
+    font-size:24px;
+    margin: 5px 5px auto;
+}
+
+.filtre{
+    height: 30px;
+    width: 500px;
+    margin:15px 1px;
+    padding: 5px auto ;
+    background-color: #edeef0 ;
+    border-radius: 30px;
+}
+
+
+
+ .ul li{
+    height: 5px;
+    width: 150px;
+    list-style: none;
+    font-size: 25px;
+    padding: 5px auto ;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+
+} 
+ ul li:hover {
+    background: #ddd;
+    } 
+
+/* ul li:nth-child(odd) {
+   background: #f9f9f9;
+} */
+
+
+ul li::before{
+    content: "";
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    top: 5px;
+
+}
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+    }
+
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 5px;
+    transform: rotate(45deg);
+    }
+
+.close{
+    position: absolute;
+    right: 0px;
+    /* top: 5px; */
+    width: 20px;
+    height: 20px;  
+    font-size: 22px;
+    color: #edeef0;
+    /* line-height: 55px; */
+    text-align: center;
+    /* border-radius: 50px; */
+    cursor: pointer;
+
+
+} 
+
+.close:hover{
+    background: red;
+
+} 
+
+

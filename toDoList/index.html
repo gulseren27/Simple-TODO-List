@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> To Do List  </title>
+
+
+</head>
+
+
+<body>
+    
+
+    <div class ="container"> 
+        
+<h1  class="card-title"> To Do List Sayfası <img src="https://cdn-icons-png.flaticon.com/128/6683/6683919.png"></h1> 
+
+
+<div class="card-body">
+    <form id="todoAddForm" class="mt-2">
+        <div class="row">
+     <input class="text" type="text" id="input" placeholder="ToDo Ekleyin...">
+    </div>
+
+    <button class="btn" type= "submit "id="ekleButonu">ToDo Ekle</button>
+
+     </form>
+     <hr>
+ </div>
+<hr>
+
+
+<div class="card-body2" >
+<h1  class="card-title2"> To Do Listesinde Ara</h1> 
+<form name="form2" id="toDoListForm">
+
+    <div class="row2">
+<input class="filtre" type="text" id="filtre" placeholder="ToDo Arayın">
+</div>
+
+</form>
+
+<hr>
+
+<h1  class="card-title3"> To Do Listesi</h1> 
+
+<ul class="list-group">
+    
+     <!-- <li class="list-group-item d-flex justify-content-between">Todo 1
+        <a href="#" class="delete-item">
+            <i class="fa fa-remove"></i>
+        </a>
+    </li>  -->
+
+</ul>
+
+<div class="allDeleteBtn">
+<a href="#" id="clearButton" type="click"  class="btnbtn-primary btn-sm mt-3">Tüm Todoları Temizle</a>
+
+</div>
+
+
+</div>
+
+
+
+    <link rel="stylesheet" href="style.css"/>
+     <script src= "app.js"></script> 
+</body>
+</html>
