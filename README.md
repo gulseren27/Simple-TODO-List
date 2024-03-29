@@ -1,2 +1,2 @@
 # Simple TODO List
- Html Css ve Javascript ile basit todo list 
+ Html Css ve Javascript kullanımının pekişmei için To-Do List App 
